@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="买火车票"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.542">
+  <properties />
+  
+  
+            <testcase name="selectTicket" time="0.581" classname="com.dengbin.tools.TrainTicket" />
+                <testcase name="buyTicket" time="10.961" classname="com.dengbin.tools.TrainTicket" />
+      
+</testsuite>

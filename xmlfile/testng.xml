@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="12306网站">
+	<test name="买火车票" preserve-order="true">
+		<classes>
+			<class name="com.dengbin.tools.TrainTicket">
+				<methods>
+					<include name="selectTicket" />
+					<include name="buyTicket" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+</suite>
