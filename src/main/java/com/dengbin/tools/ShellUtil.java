@@ -17,7 +17,7 @@ public class ShellUtil {
 	public static void main(String[] args) {
 		 //ShellUtil.executeCommand("adb shell input keyevent 3");
 		 //ShellUtil.executeCommand("adb shell am start -n com.UCMobile/com.uc.browser.InnerUCMobile");
-		 ShellUtil.executeCommand("notepad.exe");
+		 System.out.println(ShellUtil.executeCommand("date"));
 		
 			}
 
